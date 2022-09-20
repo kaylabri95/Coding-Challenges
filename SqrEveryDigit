@@ -1,0 +1,5 @@
+/This function goes through every digit of an array and multiplies it by itself as an individual and then combines them all back into a number string
+function squareDigits(num){
+  return Number(('' + num).split('').map(function (val) { return val * val;}).join(''));
+  
+}
