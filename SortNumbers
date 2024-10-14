@@ -1,0 +1,4 @@
+function solution(nums){
+let sorted = []
+nums ? sorted = nums.sort((a, b) => a - b) : sorted = []
+return sorted}
